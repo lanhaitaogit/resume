@@ -1,3 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
 body {
     background: black;
     color: white;
@@ -57,4 +67,90 @@ a {
 }
 .topNavBar .logo .card {
     color: #9a9da2;
+}
+.banner {
+    background-size: cover;
+    background-image: url(../img/rs-cover.jpg);
+    height: 515px;
+    background-position: center center;
+}
+.banner .mask {
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 515px;
+}
+.PictureAndText {
+    padding: 50px;
+}
+.pictureAndText>.picture {
+    float: left;
+}
+.card {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    margin-top: -345px;
+}
+.card .text {
+    float: left;
+    margin-left: 65px;
+    width: 470px;
+}
+.card .profile {
+    color: #333;
+}
+.card .text .profile .welcome {
+    color: white;
+    background-color: #E6686A;
+    padding: 4px 16px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+}
+.card .text .profile>hr {
+    margin: 20px 0;
+}
+.card .text .profile .welcome::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    margin-left: 4px;
+    border: 10px solid transparent;
+    border-left-color: #e6686a;
+    border-top-width: 0px;
+    top: 100%;
+}
+.card dl>*{
+    float: left;
+    padding: 5px 0;
+}
+.card dl dt {
+    width: 30%;
+    font-weight: bold;
+}
+.card dl dd {
+    width:70%;
+    color: #999;
+}
+.card > footer.media {
+    background: #e6686A;
+    text-align:center;
+}
+.card > footer.media > a {
+    display: inline-block;
+    width: 40px;
+    line-height: 30px;
+    padding: 5px 0;
+    border-radius: 50%;
+    margin: 16px;
+}
+.card svg {
+    width: 30px;
+    height: 30px;
+    vertical-align: top;
+    fill: #fff;
 }
