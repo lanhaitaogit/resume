@@ -85,22 +85,22 @@ a {
 .pictureAndText>.picture {
     float: left;
 }
-.card {
+.Usercard {
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
     background-color: #ffffff;
     margin-top: -345px;
 }
-.card .text {
+.Usercard .text {
     float: left;
     margin-left: 65px;
     width: 470px;
 }
-.card .profile {
+.Usercard .profile {
     color: #333;
 }
-.card .text .profile .welcome {
+.Usercard .text .profile .welcome {
     color: white;
     background-color: #E6686A;
     padding: 4px 16px;
@@ -109,10 +109,10 @@ a {
     display: inline-block;
     position: relative;
 }
-.card .text .profile>hr {
+.Usercard .text .profile>hr {
     margin: 20px 0;
 }
-.card .text .profile .welcome::after {
+.Usercard .text .profile .welcome::after {
     content: "";
     position: absolute;
     left: 0;
@@ -124,23 +124,23 @@ a {
     border-top-width: 0px;
     top: 100%;
 }
-.card dl>*{
+.Usercard dl>*{
     float: left;
     padding: 5px 0;
 }
-.card dl dt {
+.Usercard dl dt {
     width: 30%;
     font-weight: bold;
 }
-.card dl dd {
+.Usercard dl dd {
     width:70%;
     color: #999;
 }
-.card > footer.media {
+.Usercard > footer.media {
     background: #e6686A;
     text-align:center;
 }
-.card > footer.media > a {
+.Usercard > footer.media > a {
     display: inline-block;
     width: 40px;
     line-height: 30px;
@@ -148,7 +148,7 @@ a {
     border-radius: 50%;
     margin: 16px;
 }
-.card svg {
+.Usercard svg {
     width: 30px;
     height: 30px;
     vertical-align: top;
